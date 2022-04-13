@@ -1,0 +1,42 @@
+footer {
+    height: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 65px;
+  }
+  
+  .element-left {
+    font-size: 26px;
+  }
+  
+  .element-right>ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    li {
+      list-style: none;
+      margin: 0 17px;
+  
+      a {
+        img {
+          width: 26px;
+          height: 31px;
+          border-radius: 333px;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width:1254px) {
+    footer {
+      height: 19vh;
+      flex-direction: column;
+    }
+  
+    .element-center {
+      margin: 28px 0;
+    }
+  
+  }

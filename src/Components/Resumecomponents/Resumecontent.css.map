@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,yBAAyB,CAAC;EACtB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,MAAM;CACtB;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAAA,yBAAyB,CAAC;IACtB,cAAc,EAAE,MAAM;GACzB",
+    "sources": [
+        "Resumecontent.scss"
+    ],
+    "names": [],
+    "file": "Resumecontent.css"
+}

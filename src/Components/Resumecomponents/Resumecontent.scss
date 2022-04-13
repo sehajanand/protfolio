@@ -1,0 +1,12 @@
+.resume-content-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    align-items: center;
+}
+
+@media screen and (max-width:1254px) {
+    .resume-content-container {
+        flex-direction: column;
+    }
+}

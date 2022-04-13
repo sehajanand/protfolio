@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,KAAK,EAAE,SAAS;EAChB,MAAM,EAAE,aAAa;EACrB,WAAW,EAAE,YAAY;EACzB,UAAU,EAAE,IAAI;CACnB;;AAED,AAAA,SAAS,CAAC;EACN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAAA,cAAc,CAAC;IACX,KAAK,EAAE,QAAQ;IACf,WAAW,EAAE,OAAO;GACvB",
+    "sources": [
+        "Introimg.scss"
+    ],
+    "names": [],
+    "file": "Introimg.css"
+}

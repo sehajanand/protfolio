@@ -1,0 +1,126 @@
+#navbar {
+  display: inline-block;
+  width: 41vw;
+  margin-left: 22vw;
+}
+
+#navbar #notHamburgerNavigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar #notHamburgerNavigation li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+#navbar #notHamburgerNavigation li a {
+  text-decoration: none;
+  color: #4e4f4f;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 17.5px;
+  font-family: "Poppins, sans-serif";
+}
+
+.navbar-links:hover {
+  color: #40b4e2 !important;
+}
+
+#navbar #notHamburgerNavigation li button {
+  all: unset;
+  text-decoration: none;
+  color: #4e4f4f;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 17.5px;
+  font-family: "Poppins, sans-serif";
+  cursor: pointer;
+}
+
+.hamburgerBox {
+  display: none;
+}
+
+@media screen and (max-width: 1254px) {
+  .hamburgerBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 20px 0;
+    padding-top: 10px;
+  }
+  #navbar #notHamburgerNavigation {
+    display: none;
+  }
+  #navbar {
+    margin-left: 33vw;
+  }
+}
+
+#hamburgerNavigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#hamburgerNavigation li {
+  list-style: none;
+  margin: 5px 11px;
+}
+
+#hamburgerNavigation li a {
+  text-decoration: none;
+  color: #4e4f4f;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 26.6px;
+  font-family: "Poppins, sans-serif";
+}
+
+#hamburgerNavigation li button {
+  all: unset;
+  text-decoration: none;
+  color: #4e4f4f;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 26.5px;
+  font-family: "Poppins, sans-serif";
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1254.01px) {
+  #hamburgerNavigation {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1254px) {
+  #navbar {
+    margin-left: 30vw;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

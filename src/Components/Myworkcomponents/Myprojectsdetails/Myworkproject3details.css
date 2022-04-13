@@ -1,0 +1,80 @@
+#work3details {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: initial;
+  margin-top: 55px;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.news-app-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+}
+
+.news-app-link > a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: blue;
+}
+
+.news-app-link + p {
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  width: 65vw;
+  margin-top: 39px;
+  margin-left: 89px;
+  font-size: 19px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: #474343;
+}
+
+.other-works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 67px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.other-works a {
+  text-decoration: none;
+  color: black;
+  background-color: #47d1fe;
+  border-radius: 33px;
+  width: 132px;
+  text-align: center;
+  height: 33px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.other-projects {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin-top: 55px;
+  font-size: 29px;
+  letter-spacing: 2px;
+}
+
+.news-app-link > a:hover {
+  color: #47d1fe;
+}
+
+@media screen and (max-width: 1254px) {
+  .news-app-link {
+    margin: 25px 45px;
+  }
+}
+/*# sourceMappingURL=Myworkproject3details.css.map */

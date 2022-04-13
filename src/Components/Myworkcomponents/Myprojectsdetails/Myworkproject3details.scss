@@ -1,0 +1,73 @@
+$primaryFont: "Poppins",
+sans-serif;
+
+#work3details {
+  text-align: center;
+  font-family: $primaryFont;
+  color: initial;
+  margin-top: 55px;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.news-app-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.news-app-link>a {
+  text-decoration: none;
+  font-family: $primaryFont;
+  color: blue;
+}
+
+.news-app-link+p {
+  font-family: $primaryFont;
+  display: inline-block;
+  width: 65vw;
+  margin-top: 39px;
+  margin-left: 89px;
+  font-size: 19px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: #474343;
+}
+
+.other-works {
+  display: flex;
+  margin-top: 67px;
+  justify-content: space-around;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: black;
+    background-color: #47d1fe;
+    border-radius: 33px;
+    width: 132px;
+    text-align: center;
+    height: 33px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+.other-projects {
+  text-align: center;
+  font-family: $primaryFont;
+  color: black;
+  margin-top: 55px;
+  font-size: 29px;
+  letter-spacing: 2px;
+}
+
+.news-app-link>a:hover {
+  color: #47d1fe;
+}
+
+@media screen and (max-width:1254px) {
+  .news-app-link {
+    margin: 25px 45px;
+  }
+}

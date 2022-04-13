@@ -1,0 +1,39 @@
+.logo-container {
+  display: inline-block;
+}
+
+#logo {
+  font-family: "Poppins, sans-serif";
+  display: inline-block;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 16vw;
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 32px;
+  text-decoration: none;
+  color: initial;
+}
+
+#logo:hover {
+  color: initial;
+}
+
+@media screen and (max-width: 1254px) {
+  .logo-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #logo {
+    margin-left: 0;
+    font-size: 50px;
+  }
+}
+/*# sourceMappingURL=Logo.css.map */

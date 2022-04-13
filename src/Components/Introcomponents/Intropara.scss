@@ -1,0 +1,40 @@
+$primaryFont: 'Poppins, sans-serif';
+
+.intro-para-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+p {
+    font-family: $primaryFont;
+}
+
+p:nth-child(2) {
+    width: 44vw;
+    font-size: 19px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: #474343;
+}
+
+p:nth-child(1) {
+    font-size: 29px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:1254px) {
+    p:nth-child(1) {
+        font-size: 36px;
+    }
+
+    p:nth-child(2) {
+        width: 82vw;
+        font-size: 20px;
+    }
+}
+
+//44

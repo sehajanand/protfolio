@@ -1,0 +1,118 @@
+$primaryFont: "Poppins, sans-serif";
+
+#navbar {
+  display: inline-block;
+  width: 41vw;
+  margin-left: 22vw;
+
+  #notHamburgerNavigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      list-style: none;
+      margin: 0 20px;
+
+      a {
+        text-decoration: none;
+        color: #4e4f4f;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+        font-size: 17.5px;
+        font-family: $primaryFont;
+      }
+    }
+  }
+}
+
+.navbar-links:hover {
+  color: #40b4e2 !important;
+}
+
+#navbar {
+  #notHamburgerNavigation {
+    li {
+      button {
+        all: unset;
+        text-decoration: none;
+        color: #4e4f4f;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+        font-size: 17.5px;
+        font-family: $primaryFont;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.hamburgerBox {
+  display: none;
+}
+
+@media screen and (max-width: 1254px) {
+  .hamburgerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding-top: 10px;
+  }
+
+  #navbar #notHamburgerNavigation {
+    display: none;
+  }
+
+  #navbar {
+    margin-left: 33vw;
+  }
+}
+
+#hamburgerNavigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  li {
+    list-style: none;
+    margin: 5px 11px;
+
+    a {
+      text-decoration: none;
+      color: #4e4f4f;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+      font-size: 26.6px;
+      font-family: $primaryFont;
+    }
+  }
+}
+
+#hamburgerNavigation {
+  li {
+    button {
+      all: unset;
+      text-decoration: none;
+      color: #4e4f4f;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+      font-size: 26.5px;
+      font-family: $primaryFont;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (min-width:1254.01px) {
+  #hamburgerNavigation {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1254px) {
+  #navbar {
+    margin-left: 30vw;
+  }
+}

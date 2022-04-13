@@ -1,0 +1,31 @@
+.resume-half-one {
+  margin: 0 7.03125vw;
+}
+
+.resume-half-one > h2 {
+  font-size: 29px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  margin: 24px 0;
+}
+
+.resume-half-one > a {
+  color: black;
+  display: block;
+  color: #474343;
+  margin: 12px 0;
+  text-decoration: none;
+}
+
+.resume-half-one > ul > li {
+  list-style: none;
+  letter-spacing: 0.5px;
+  color: #474343;
+  font-size: 19px;
+}
+
+.resume-half-one > ul {
+  margin: 12px 0;
+  line-height: 38px;
+}
+/*# sourceMappingURL=Resumecontentsubbox1.css.map */

@@ -1,0 +1,39 @@
+.resume-half-two {
+  margin: 0 7.03125vw;
+}
+
+.resume-half-two > h2 {
+  font-size: 29px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  margin: 24px 0;
+}
+
+.resume-half-two > a {
+  color: black;
+  display: block;
+  color: #474343;
+  margin: 12px 0;
+  text-decoration: none;
+}
+
+.resume-half-two > ul > li {
+  list-style: none;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #474343;
+  font-size: 19px;
+  margin: 12px 0;
+}
+
+.resume-half-two > ul > li > em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1254px) {
+  .resume-half-two {
+    margin: 0 18vw;
+  }
+}
+/*# sourceMappingURL=Resumecontentsubbox2.css.map */

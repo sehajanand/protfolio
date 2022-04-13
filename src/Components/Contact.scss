@@ -1,0 +1,22 @@
+.contact-container>h2 {
+    font-size: 51px;
+    letter-spacing: 2px;
+    font-weight: normal;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 67px;
+  }
+  
+  @media screen and (max-width:1254px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .contact-container>h2 {
+      margin: 17px 0;
+    }
+  }

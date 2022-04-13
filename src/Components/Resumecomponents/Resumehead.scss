@@ -1,0 +1,28 @@
+$primaryFont: 'Poppins, sans-serif';
+
+.resume-head-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.resume-head-img {
+    display: inline-block;
+}
+
+.resume-head-img>img {
+    width: 231px;
+    height: 251px;
+}
+
+.resume-head-container>p {
+    font-family: $primaryFont;
+    color: #474343;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 33px;
+    font-weight: bold;
+}

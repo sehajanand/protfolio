@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,IAAI;EACnB,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,MAAM;CACtB;;AAED,AAAA,kBAAkB,GAAC,CAAC,CAAC;EACjB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;EAClB,cAAc,EAAE,KAAK;EACrB,KAAK,EAAE,OAAO;CACjB",
+    "sources": [
+        "Myworkintro.scss"
+    ],
+    "names": [],
+    "file": "Myworkintro.css"
+}
