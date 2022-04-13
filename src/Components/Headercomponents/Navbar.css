@@ -34,6 +34,10 @@
   color: #40b4e2 !important;
 }
 
+.navbar-links:visited {
+  color: #4e4f4f;
+}
+
 #navbar #notHamburgerNavigation li button {
   all: unset;
   text-decoration: none;

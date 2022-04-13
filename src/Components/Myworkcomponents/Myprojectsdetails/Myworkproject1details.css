@@ -72,6 +72,10 @@
   color: #47d1fe;
 }
 
+.text-editor-link > a:visited {
+  color: blue;
+}
+
 @media screen and (max-width: 1254px) {
   .text-editor-link {
     margin: 25px 45px;

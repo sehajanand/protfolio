@@ -72,6 +72,10 @@
   color: #47d1fe;
 }
 
+.news-app-link > a:visited {
+  color: blue;
+}
+
 @media screen and (max-width: 1254px) {
   .news-app-link {
     margin: 25px 45px;
