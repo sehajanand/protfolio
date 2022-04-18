@@ -24,6 +24,9 @@ export default function Resumecontentsubbox2() {
           <em>Zoonotics Esports Organisation </em> <br /> Team Leader of Front
           end Website Development Team
         </li>
+        <li>
+          <em>Member Of IICHE (Indian Institute Of Chemical Engineers) </em>
+        </li>
       </ul>
       <h2>Interests</h2>
       <ul>
