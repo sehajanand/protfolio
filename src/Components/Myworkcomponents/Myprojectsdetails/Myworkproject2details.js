@@ -6,9 +6,8 @@ export default function Work2details() {
     <>
       <h1 id="work2details">Zoonotics Website</h1>
       <h2 className="zoonotics-link">
-        <a href="https://sage-mooncake-2f17d2.netlify.app">
-          https://sage-mooncake-2f17d2.netlify.app
-        </a>
+        <a href="https://zoonotics-official.netlify.app/">
+        https://zoonotics-official.netlify.app/        </a>
       </h2>
       <p>
         Zoonotics is an e-sports organization that organizes many e-sports
