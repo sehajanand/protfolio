@@ -1,10 +1,12 @@
 import React from "react";
 
 export default function Hamburger({ isOpen }) {
+
+ 
   return (
     <>
       <div className="hamburger">
-        <div className=" burger burger1" />
+        <div  className=" burger burger1" />
         <div className="burger burger2" />
         <div className="burger burger3" />
       </div>
@@ -26,7 +28,7 @@ export default function Hamburger({ isOpen }) {
           transition: all 0.3s linear;
         }
         .burger1 {
-          transform: ${isOpen ? "rotate(45deg)" : "rotate(0)"};
+          transform: ${isOpen ? "rotate(45deg)" :"rotate(0)"};
         }
         .burger2 {
           display: ${isOpen ? "none" : "inline-block"};

@@ -11,28 +11,28 @@ export default function Navbar() {
 
   const workClick = () => {
     window.scrollTo({
-      top: 739.2000122070312,
+      top: 900.7999877929688,
       left: 0,
       behavior: "smooth",
     });
   };
   const contactClick = () => {
     window.scrollTo({
-      top: 1964,
+      top: 2451.199951171875,
       left: 0,
       behavior: "smooth",
     });
   };
   const workClick2 = () => {
     window.scrollTo({
-      top: 1152,
+      top: 1622.4000244140625,
       left: 0,
       behavior: "smooth",
     });
   };
   const contactClick2 = () => {
     window.scrollTo({
-      top: 4112,
+      top: 4699.2001953125,
       left: 0,
       behavior: "smooth",
     });
