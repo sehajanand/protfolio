@@ -2,11 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 137.7vh;
+    height: 88.7vh;
 }
 
 @media screen and (max-width:1254px) {
     .intro-container {
         flex-direction: column;
+        height: 137.7vh;
+    }
+}
+@media screen and (max-width:232px) {
+    .intro-container {
+        flex-direction: column;
+        height: 150.7vh;
     }
 }

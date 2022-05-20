@@ -47,7 +47,7 @@ export default function Navbar() {
         </li>
         <li>
           <button className="navbar-links" onClick={workClick}>
-            My Work
+             Work
           </button>
         </li>
         <li>
@@ -73,7 +73,7 @@ export default function Navbar() {
           </li>
           <li>
             <button className="navbar-links" onClick={workClick2}>
-              My Work
+               Work
             </button>
           </li>
           <li>
