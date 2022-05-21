@@ -18,7 +18,8 @@ export default function Work1details() {
         characters in the text , or find the time it would take for a normal
         person to read it. This was my first react project. <br /> Days it took
         to get completed-5 <br /> No of hours given to project per day by me- 4
-        to 6{" "}
+        to 6{" "} <br />
+        <em>Link For Code - <a href="https://github.com/sehajanand/Text-Editor">https://github.com/sehajanand/Text-Editor</a></em>
       </p>
       <h3 className="other-projects">OTHER PROJECTS</h3>
       <div className="other-works">

@@ -9,17 +9,17 @@ export default function Resumecontentsubbox1() {
       <h2>Coding Skills</h2>
       <ul>
         <li>HTML-CSS-JS</li>
-        <li>SASS</li>
         <li>REACT</li>
-        <li>JQuery</li>
+        <li>JQuery/SASS</li>
         <li>Basics Of UI/UX design</li>
         <li>C/C++</li>
       </ul>{" "}
       <h2>Engineering Skills</h2>
       <ul>
         <li>Thermodynamics</li>
-        <li>Fluid Mechanics</li>
-        <li>Computational Fluid Dynamics</li>
+        <li>Heat Transfer</li>
+        <li>Outstanding Communication Skills</li>
+        <li>Team Collaboration</li>
       </ul>
       <h2>Languages</h2>
       <ul>

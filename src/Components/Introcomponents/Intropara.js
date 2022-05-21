@@ -16,7 +16,7 @@ export default function Intropara() {
         I am a freelance web developer and a chemical engineer based in Jammu
         and Kashmir, India. I am currently pursuing my B Tech in chemical
         engineering from NIT Srinagar and simultaneously work on web
-        development. Feel free to contact me for anything.
+        development. 
       </p>
     </div>
   );

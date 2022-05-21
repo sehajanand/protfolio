@@ -19,7 +19,7 @@ export default function Work2details() {
         that they needed to develop a website, so then I introduced my web
         developer side to them and they agreed to take me on board. <br />
         Days it took to get completed-20 to 25 <br /> No of hours given to
-        project per day by me- 6 to 7.
+        project per day by me- 6 to 7. <br /> <em>Link For Code - <a href="https://github.com/sehajanand/Zoonotics">https://github.com/sehajanand/Zoonotics</a> </em>
       </p>
       <h3 className="other-projects">Other Projects</h3>
       <div className="other-works">

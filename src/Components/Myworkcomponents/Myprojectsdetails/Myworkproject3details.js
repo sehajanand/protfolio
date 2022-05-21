@@ -17,7 +17,7 @@ export default function Work3details() {
         of a free plan instead of a paid one. So please bear with me if you can
         watch limited news. <br />
         Days it took to get completed-3 to 4 <br /> No of hours given to project
-        per day by me- 4 to 5.{" "}
+        per day by me- 4 to 5.{" "} <br /> <em>Link For Code - <a href="https://github.com/sehajanand/News-Seeker">https://github.com/sehajanand/News-Seekers</a></em>
       </p>
       <h3 className="other-projects">Other Projects</h3>
       <div className="other-works">

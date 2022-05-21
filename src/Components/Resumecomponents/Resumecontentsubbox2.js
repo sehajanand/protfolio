@@ -26,14 +26,14 @@ export default function Resumecontentsubbox2() {
         </li>
         <li>
           <em>Member Of IICHE (Indian Institute Of Chemical Engineers) </em>
+          Organizing various iiche events by team collaboration and gaining vast knowledge directly from invited professors.
         </li>
       </ul>
       <h2>Interests</h2>
       <ul>
-        <li>Coding</li>
         <li>Football</li>
         <li>Chess</li>
-        <li>Gaming</li>
+        <li>Travelling</li>
       </ul>
     </div>
   );
